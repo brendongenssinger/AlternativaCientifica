@@ -90,12 +90,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\AlternativaCientifica.Web\AlternativaCientifica.Web.csproj">
-      <Project>{8DD66CB8-128B-4B97-A2B8-FCE74B7E7DEB}</Project>
-      <Name>AlternativaCientifica.Web</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
