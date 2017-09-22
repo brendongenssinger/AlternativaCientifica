@@ -15,6 +15,7 @@ namespace AlternativaCientifica.Web.Controllers
 
         public ActionResult About()
         {
+            var _te = "T";
             ViewBag.Message = "Your application description page.";
 
             return View();
